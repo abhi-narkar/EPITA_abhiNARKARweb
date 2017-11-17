@@ -1,0 +1,67 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name>Authenticate</servlet-name>
+  	<display-name>Authenticate</display-name>
+  	<description></description>
+  	<servlet-class>fr.epita.iam.controllers.Authenticate</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>AbstractSpringServlet</servlet-name>
+  	<display-name>AbstractSpringServlet</display-name>
+  	<description></description>
+  	<servlet-class>fr.epita.iam.controllers.AbstractSpringServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>IdentityCreation</servlet-name>
+  	<display-name>IdentityCreation</display-name>
+  	<description></description>
+  	<servlet-class>fr.epita.iam.controllers.IdentityCreation</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>SearchIdentity</servlet-name>
+  	<display-name>SearchIdentity</display-name>
+  	<description></description>
+  	<servlet-class>fr.epita.iam.controllers.SearchIdentity</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>IdentityModification</servlet-name>
+  	<display-name>IdentityModification</display-name>
+  	<description></description>
+  	<servlet-class>fr.epita.iam.controllers.IdentityModification</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>IdentityUpdate</servlet-name>
+  	<display-name>IdentityUpdate</display-name>
+  	<description></description>
+  	<servlet-class>fr.epita.iam.controllers.IdentityUpdate</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>Authenticate</servlet-name>
+  	<url-pattern>/Authenticate</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>AbstractSpringServlet</servlet-name>
+  	<url-pattern>/AbstractSpringServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>IdentityCreation</servlet-name>
+  	<url-pattern>/IdentityCreation</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>SearchIdentity</servlet-name>
+  	<url-pattern>/SearchIdentity</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>IdentityModification</servlet-name>
+  	<url-pattern>/IdentityModification</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>IdentityUpdate</servlet-name>
+  	<url-pattern>/IdentityUpdate</url-pattern>
+  </servlet-mapping>
+</web-app>
